@@ -1,0 +1,292 @@
+/* brand */
+body {
+  font-size: 14px;
+  background-color: #eff3f3;
+  position: relative;
+}
+section {
+  position: relative;
+}
+.container {
+  position: relative;
+  max-width: 960px;
+}
+.navbar {
+  position: absolute;
+  top: 0px;
+  width: 100%;
+  left: 0px;
+}
+.navbar-inverse {
+  background: none;
+  border: none;
+}
+.nav.navbar-nav > li > a {
+  line-height: 90px;
+  padding: 0px 30px 0px 30px;
+  margin: 30px 10px 30px 10px;
+  text-transform: uppercase;
+  background-color: rgba(0, 0, 0, 0.5);
+  font-family: 'chaparral_proregular', serif;
+}
+.nav.navbar-nav > li > a:hover {
+  background-color: rgba(0, 0, 0, 0.9);
+  color: white;
+}
+.navbar-brand {
+  display: inline-block;
+  line-height: 90px;
+  margin: 20px 10px 30px 10px;
+}
+.navbar-toggle {
+  border: none;
+}
+.hero {
+  width: 100%;
+  text-align: center;
+  height: 100%;
+  overflow-y: hidden;
+}
+.hero p {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 0.8em;
+  font-weight: 100;
+  font-family: 'chaparral_proregular', serif;
+  font-size: 1.1em;
+  letter-spacing: 0.3em;
+}
+.hero h1 {
+  font-family: 'league_gothicCnRg', sans-serif;
+  color: #bbc0c2;
+  letter-spacing: 0.108em;
+  font-size: 4.86em;
+  margin-bottom: 0.2em;
+}
+.hero .divider {
+  position: absolute;
+  height: 5px;
+  width: 100%;
+  background-color: #d04448;
+  bottom: 2.2em;
+}
+.hero > .container {
+  padding-top: 19em;
+  position: relative;
+  height: 606px;
+  z-index: 1;
+  padding-left: 0;
+  padding-right: 0;
+}
+.hero .blur-overlay {
+  position: absolute;
+  z-index: 0;
+  width: 100%;
+  top: 0px;
+  left: 0px;
+  height: 606px;
+  background-image: url('../images/apc_hero_bg_blur.png');
+  background-size: 100% auto;
+  background-position: center center;
+  opacity: 0;
+  /* IE 8 */
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  /* IE 5-7 */
+  filter: alpha(opacity=0);
+  /* Netscape */
+  -moz-opacity: 0;
+  /* Safari 1.x */
+  -khtml-opacity: 0;
+}
+.hero .background-image {
+  position: absolute;
+  z-index: 0;
+  width: 100%;
+  top: 0px;
+  left: 0px;
+  height: 606px;
+  background-image: url('../images/apc_hero_bg.png');
+  background-size: 100% auto;
+  background-position: center center;
+}
+.intro {
+  background-color: #eff3f3;
+  text-align: center;
+  padding: 3.7em 0em 2em 0em;
+}
+.intro p {
+  font-size: 2.1em;
+  line-height: 1.5655em;
+  letter-spacing: 0.04em;
+  font-weight: 300;
+  color: rgba(0, 0, 0, 0.5);
+  font-family: 'chaparral_proitalic', serif;
+}
+.intro i {
+  font-size: 0.5em;
+  color: rgba(0, 0, 0, 0.3);
+}
+.features {
+  background-color: #eff3f3;
+  padding: 60px 0px 60px 0px;
+}
+.features .feature {
+  text-align: center;
+}
+.features .feature img {
+  max-width: 100%;
+  display: inline-block;
+}
+.features .feature h1 {
+  margin-top: 0.45em;
+  font-family: 'chaparral_proitalic', serif;
+  font-size: 2em;
+}
+.features .feature p {
+  font-family: 'Gudea', sans-serif;
+  color: rgba(0, 0, 0, 0.4);
+  font-size: 1em;
+  line-height: 1.85em;
+  letter-spacing: 0.01em;
+  margin: 1.05em 1.4em;
+}
+.testimonials {
+  background-color: #fafdfd;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.45);
+}
+.testimonials .container {
+  padding: 3.4em 0em 3em 0em;
+}
+.testimonials .item p {
+  font-family: 'chaparral_proitalic', serif;
+  font-size: 1.9em;
+}
+.testimonials .item span {
+  font-family: 'Gudea', sans-serif;
+}
+.testimonials .item img {
+  width: 32px;
+  border-radius: 32px;
+}
+.badges {
+  text-align: center;
+  background-color: #eff3f3;
+}
+.badges .container {
+  padding: 2.5em 0em 2.5em 0em;
+}
+.badges img {
+  max-width: 100%;
+}
+footer {
+  min-height: 250px;
+  background: #00141a;
+}
+@media (max-width: 480px) {
+  .hero p {
+    font-size: 1em;
+    letter-spacing: 0.3em;
+  }
+  .hero h1 {
+    font-family: 'league_gothicCnRg', sans-serif;
+    color: #bbc0c2;
+    letter-spacing: 0.108em;
+    font-size: 3em;
+    margin-bottom: 0.2em;
+  }
+  .hero .divider {
+    width: 90%;
+    height: 3px;
+  }
+  .hero > .container {
+    padding-top: 5em;
+    height: 300px;
+  }
+  .hero .blur-overlay {
+    height: 300px;
+    background-size: cover;
+  }
+  .hero .background-image {
+    height: 300px;
+    background-size: cover;
+  }
+  .intro p {
+    font-size: 1.3em;
+    line-height: 1.5655em;
+    letter-spacing: 0.04em;
+    font-weight: 300;
+    color: rgba(0, 0, 0, 0.5);
+    font-family: 'chaparral_proitalic', serif;
+  }
+  .intro i {
+    font-size: 0.5em;
+    color: rgba(0, 0, 0, 0.3);
+  }
+  .testimonials .container {
+    padding: 3.4em 0em 3em 0em;
+  }
+  .testimonials .item p {
+    font-family: 'chaparral_proitalic', serif;
+    font-size: 1.4em;
+    margin: 0em 1em 1em 1em;
+  }
+  .testimonials .item span {
+    font-family: 'Gudea', sans-serif;
+  }
+  .testimonials .item img {
+    width: 32px;
+    border-radius: 32px;
+  }
+  .badges {
+    text-align: center;
+    background-color: #eff3f3;
+  }
+  .badges .container {
+    padding: 2.5em 0em 2.5em 0em;
+  }
+  .badges img {
+    max-width: 80%;
+  }
+}
+@media (max-width: 1280px) {
+  .hero p {
+    font-size: 1em;
+    letter-spacing: 0.3em;
+  }
+  .hero h1 {
+    font-family: 'league_gothicCnRg', sans-serif;
+    color: #bbc0c2;
+    letter-spacing: 0.108em;
+    font-size: 3.5em;
+    margin-bottom: 0.2em;
+  }
+  .hero .divider {
+    width: 90%;
+    margin-left: 5%;
+    height: 3px;
+  }
+  .hero > .container {
+    padding-top: 15em;
+    height: 500px;
+  }
+  .hero .blur-overlay {
+    height: 500px;
+    background-size: cover;
+  }
+  .hero .background-image {
+    height: 500px;
+    background-size: cover;
+  }
+  .intro p {
+    font-size: 1.5em;
+    line-height: 1.5655em;
+    letter-spacing: 0.04em;
+    font-weight: 300;
+    color: rgba(0, 0, 0, 0.5);
+    font-family: 'chaparral_proitalic', serif;
+  }
+  .intro i {
+    font-size: 0.5em;
+    color: rgba(0, 0, 0, 0.3);
+  }
+}

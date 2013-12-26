@@ -1,0 +1,239 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Advanced Property Construction</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href='http://fonts.googleapis.com/css?family=Gudea' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Roboto+Slab:100' rel='stylesheet' type='text/css'>
+        <link rel="shortcut icon" href="favicon.ico?v=2" />
+        <link href="public/css/bootstrap.min.css" rel="stylesheet" type="text/css" media="all"/>
+        <link href="public/css/main.min.css" rel="stylesheet" type="text/css" media="all"/>
+        <link href="public/webfonts/stylesheet.min.css" rel="stylesheet" type="text/css" media="all"/>
+        <link href="public/css/font-awesome.min.css" rel="stylesheet" type="text/css" media="all"/>
+        <script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
+    </head>
+    <body>
+        <nav class="navbar navbar-inverse" role="navigation">
+  <!-- Brand and toggle get grouped for better mobile display -->
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <img src="public/images/logo_small.png" alt="Advanced Property Construction logo small"/>
+      </button>
+      <a class="navbar-brand hidden-sm hidden-xs" href="index.html" title="Advanced Property Construction"><img src="public/images/logo_small.png" alt="Advanced Property Construction logo small"/></a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        <li class="visible-xs">
+          <a href="index.html">Home</a></li>
+        <li>
+          <a href="gallery.html">gallery</a></li>
+        <li>
+          <a href="contact.html" >contact</a>
+        </li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div>
+</nav>
+        
+	<section class="hero">
+		<div class="container">
+			<div class="hero-text">
+				<h1>
+					The homes we build
+				</h1>
+				<p>SELECT FROM A CATEGORY BELOW TO view RECENT PROJECTS
+				</p>
+				<div class="divider">
+				</div>
+			</div>
+		</div>
+		<div class="background-image">
+		</div>
+		<div class="blur-overlay">
+		</div>
+	</section>
+	<section class="category-nav">
+		<div  id="category-selector">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-4">
+						<div class="category-wrap">
+							<div class="category" data-toggle="#luxury-gallery" id="luxury">
+								<h1>LUXury homes <span class="glyphicon glyphicon-chevron-right"></span>
+								</h1>
+								<div class="overlay">
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-4">
+						<div class="category-wrap">
+							<div class="category" data-toggle="#multi-townhouse-gallery" id="multi-townhouse">
+								<h1>Multi townhouse <span class="glyphicon glyphicon-chevron-right"></span>
+								</h1>
+								<div class="overlay">
+								</div>	
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-4">
+						<div class="category-wrap">
+							<div class="category" data-toggle="#dual-occupancy-gallery" id="dual-occupancy">
+								<h1>dual occupancy <span class="glyphicon glyphicon-chevron-right"></span>
+								</h1>
+								<div class="overlay">
+								</div>
+							</div>
+						</div>
+					</div>				
+				</div>
+				<div id="category-selector-expand" class="glyphicon glyphicon-chevron-down"></div>
+			</div>
+		</div>
+	</section>
+	<section class="gallery">
+		<a class="gallery-collapse">back to categories</a>
+		<div class="collection" id="luxury-gallery">
+			<div class="container">
+				<h1>
+					luxury homes
+				</h1>
+				<ul>
+					<li>
+						<a data-toggle="#example_luxury_property">
+							<img class="lazy-img" data-src="public/images/apc_luxury.jpg" alt="write something about the image here"/>
+						</a>
+					</li>
+					<li>
+						<a data-toggle="#example_luxury_property">
+							<img class="lazy-img" data-src="public/images/apc_luxury.jpg" alt="write something about the image here"/>
+						</a>
+					</li>
+					<li>
+						<a data-toggle="#example_luxury_property">
+							<img class="lazy-img" data-src="public/images/apc_luxury.jpg" alt="write something about the image here"/>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="collection" id="multi-townhouse-gallery">
+			<div class="container">
+				<h1>
+					Multi Townhouse
+				</h1>
+				<ul>
+					<li>
+						<a data-toggle="#example_multi_townhouse_property">
+							<img class="lazy-img" data-src="public/images/apc_multi_townhouse.jpg" alt="write something about the image here"/>
+						</a>
+					</li>
+					<li>
+						<a data-toggle="#example_multi_townhouse_property">
+							<img class="lazy-img" data-src="public/images/apc_multi_townhouse.jpg" alt="write something about the image here"/>
+						</a>
+					</li>
+					<li>
+						<a data-toggle="#example_multi_townhouse_property">
+							<img class="lazy-img" data-src="public/images/apc_multi_townhouse.jpg" alt="write something about the image here"/>
+						</a>
+					</li>
+				</ul>
+			</div>			
+		</div>
+		<div class="collection" id="dual-occupancy-gallery">
+			<div class="container">
+				<h1>
+					Dual Occupancy
+				</h1>
+				<ul>
+					<li>
+						<a data-toggle="#example_dual_occupancy_property">
+							<img class="lazy-img" data-src="public/images/apc_dual_occupancy.jpg" alt="write something about the image here"/>
+						</a>
+					</li>
+					<li>
+						<a data-toggle="#example_dual_occupancy_property">
+							<img class="lazy-img" data-src="public/images/apc_dual_occupancy.jpg" alt="write something about the image here"/>
+						</a>
+					</li>
+					<li>
+						<a data-toggle="#example_dual_occupancy_property">
+							<img class="lazy-img" data-src="public/images/apc_dual_occupancy.jpg" alt="write something about the image here"/>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<a class="gallery-collapse">back to categories</a>
+	</section>
+	<section class="property-album">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12">
+					<a id="back-to-category">Back</a>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-12">
+					<div class="big-image">
+					</div>
+					<div class="property" id="example_luxury_property">
+						<div class="thumbnails">
+							<img class="lazy-img thumb" data-src="public/images/apc_album_luxury.jpg" alt="say something about the image here" />
+							<img class="lazy-img thumb" data-src="public/images/apc_album_luxury2.jpg" alt="say something about the image here" />
+							<img class="lazy-img thumb" data-src="public/images/apc_album_luxury3.jpg" alt="say something about the image here" />
+							<img class="lazy-img thumb" data-src="public/images/apc_album_luxury4.jpg" alt="say something about the image here" />
+							<img class="lazy-img thumb" data-src="public/images/apc_album_luxury5.jpg" alt="say something about the image here" />
+						</div>
+					</div>
+					<div class="property" id="example_multi_townhouse_property">
+						<div class="thumbnails">
+							<img class="lazy-img thumb" data-src="public/images/apc_album_multi.jpg" alt="say something about the image here" />
+							<img class="lazy-img thumb" data-src="public/images/apc_album_multi2.jpg" alt="say something about the image here" />
+							<img class="lazy-img thumb" data-src="public/images/apc_album_multi3.jpg" alt="say something about the image here" />
+						</div>
+					</div>
+					<div class="property" id="example_dual_occupancy_property">
+						<div class="thumbnails">
+							<img class="lazy-img thumb" data-src="public/images/apc_album_dual.jpg" alt="say something about the image here" />
+							<img class="lazy-img thumb" data-src="public/images/apc_album_dual2.jpg" alt="say something about the image here" />
+							<img class="lazy-img thumb" data-src="public/images/apc_album_dual3.jpg" alt="say something about the image here" />
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-12">
+					<button id="see-more-houses">
+						See more houses
+					</button>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="contact-line">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12">
+					<h1> Want something like this? Give us a call on</h1>
+					<p>(03) 9379 9935</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+        <footer>
+        </footer>
+        <script src="public/js/jquery.min.js"></script>
+        <script src="public/js/main.min.js">
+            
+        </script>
+        <script src="public/js/bootstrap.min.js"></script>
+    </body>
+</html>
